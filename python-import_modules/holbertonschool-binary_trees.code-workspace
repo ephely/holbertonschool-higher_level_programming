@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../holbertonschool-binary_trees"
+		},
+		{
+			"path": "../../holbertonschool-low_level_programming"
+		},
+		{
+			"path": "../../holbertonschool-sorting_algorithms"
+		},
+		{
+			"path": "../../holbertonschool-simple_shell"
+		},
+		{
+			"path": "../../holbertonschool-chatgpt-introduction"
+		},
+		{
+			"path": ".."
+		}
+	]
+}
