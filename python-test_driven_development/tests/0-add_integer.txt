@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-$ cat tests/0-add_integer.txt
+>>> add_integer = __import__('0-add_integer').add_integer
 >>> add_integer(1, 2)
 3
 >>> add_integer(100, -2)
