@@ -21,7 +21,7 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """Handle the errors."""
+        """Handle the size errors."""
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
@@ -35,7 +35,7 @@ class Square:
     
     @position.setter
     def position(self, value):
-        """property setter for position."""
+        """Handle the position errors."""
         if (not isinstance(value, tuple) or
             len(value) != 2 or
             not all(isinstance(num, int) for num in value) or
@@ -49,14 +49,10 @@ class Square:
 
     def my_print(self):
         """Prints in stdout the square with the character #."""
-        for i in range(0, self.__size):
-            [print("#", end="") for j in range(self.__size)]
-            print("")
-        if self.__size == 0:
-            print("")
-
         [print("") for i in range(0, self.__position[1])]
         for i in range(0, self.__size):
             [print(" ", end="") for j in range(0, self.__position[0])]
             [print("#", end="") for k in range(0, self.__size)]
+            print("")
+        if self.__size == 0:
             print("")
