@@ -3,6 +3,9 @@
 
 
 def read_file(filename=""):
+    """
+    Read the file.
+    """
     with open(filename, "r") as f:
         contenu = f.read()
     print(contenu)
