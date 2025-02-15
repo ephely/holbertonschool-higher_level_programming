@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import json
 """Allows to write an obj with JSON"""
+import json
 
 
 def save_to_json_file(my_obj, filename):
@@ -10,4 +10,4 @@ def save_to_json_file(my_obj, filename):
     """
     with open(filename, "w") as f:
         jason = f.write(json.dump(my_obj))
-    return (jason)
+        return (jason)
