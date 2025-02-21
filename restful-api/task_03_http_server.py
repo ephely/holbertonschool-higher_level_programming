@@ -1,6 +1,6 @@
+"""Set up a web server using the http.server module."""
 import http.server
 import json
-"""Set up a web server using the http.server module."""
 
 
 class SimpleAPI(http.server.BaseHTTPRequestHandler):
