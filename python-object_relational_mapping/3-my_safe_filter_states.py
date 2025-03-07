@@ -3,8 +3,6 @@
 Wait, do you remember the previous task? Did you test "Arizona';
 TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '" as an input?
 """
-
-
 import sys
 import MySQLdb
 
@@ -48,4 +46,4 @@ if __name__ == "__main__":
 
     # Close cursor and database connection
     cursor.close()
-    db.close()
+    db.close
